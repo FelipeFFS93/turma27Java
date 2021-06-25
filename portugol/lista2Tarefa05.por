@@ -13,7 +13,7 @@ programa
 	
 	funcao inicio()
 	{
-		real indice, industria1, industria2, industria3
+		real indice
 
 		escreva("Digite o Indice de poluição ")
 		leia(indice)
@@ -24,11 +24,13 @@ programa
 			escreva("Indice aceitavel, as empresas podem funcionar")
 			}
 			senao se(indice >= 0.3 e indice <= 0.39){
-			escreva("Empresas do 1º grupo devem suspender suas atividades")
-			}senao se(indice >= 0.4 e indice <= 0.49 ){
-				escreva("Empresas do 1º e 2º grupo devem suspender suas atividades")
-				}senao{
-					escreva("Empresas do 1º, 2º e 3º grupo devem suspender suas atividades")
+				escreva("Empresas do 1º grupo devem suspender suas atividades")
+			}
+				senao se(indice >= 0.4 e indice <= 0.49 ){
+					escreva("Empresas do 1º e 2º grupo devem suspender suas atividades")
+				}	
+					senao{
+						escreva("Empresas do 1º, 2º e 3º grupo devem suspender suas atividades")
 					}
 	}
 }
@@ -37,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 838; 
+ * @POSICAO-CURSOR = 921; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
