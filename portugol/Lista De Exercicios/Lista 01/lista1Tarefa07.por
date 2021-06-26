@@ -25,7 +25,7 @@ programa
 		x =  ((c*E) - (b*f)) / ((a*E) - (b*d))
 		y = 	((a*f) - (c*d)) / ((a*E) - (b*d))
 
-		escreva("O valor de X é igual = ", x , " e o valor Y é = ", y)
+		escreva("O valor de X é igual = ", x , " e o valor de Y é = ", y)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -33,7 +33,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 373; 
+ * @POSICAO-CURSOR = 522; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
