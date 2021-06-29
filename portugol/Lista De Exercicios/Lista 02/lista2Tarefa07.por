@@ -17,7 +17,7 @@ programa
 		leia(altura)
 		limpa()
 
-		se(base > 0 e altura > 0){
+		se(base > 0 e altura > 0 e altura > base){
 			triangulo = (base * altura) /2
 			escreva("O valor do triangulo é: " , triangulo)
 			}
@@ -31,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 528; 
+ * @POSICAO-CURSOR = 393; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

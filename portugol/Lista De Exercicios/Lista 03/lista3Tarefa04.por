@@ -14,16 +14,14 @@ programa
 		escreva("Digite um numero : ")
 		leia(numeroDigitado)
 
-		enquanto(numeroDigitado <= 100 e resultadoMultiplo <= 100){
+		enquanto(numeroDigitado <= 100){
 			resultadoMultiplo = numeroDigitado * 3
 			numeroDigitado = resultadoMultiplo
 			
 			escreva(resultadoMultiplo)
 			escreva("\n")
 			}
-
 		
-			
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -31,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 596; 
+ * @POSICAO-CURSOR = 572; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
