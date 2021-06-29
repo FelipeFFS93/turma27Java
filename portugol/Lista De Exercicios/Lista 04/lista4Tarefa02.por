@@ -27,17 +27,15 @@ programa
 			
 			se(dado[i] > maiorNumero){
 				maiorNumero = dado[i]
-				se(maiorNumero >= maiorNumero){
-				contador = contador+1
 				}
 			
 
 			}
-				
-		/*para(inteiro i = 0; i < 10; i++){
-			se(maiorNumero >= maiorNumero){
-				contador = contador+1
-				}*/
+
+			para(inteiro i = 0; i < 10; i++){
+				se(dado[i] == maiorNumero){
+				contador = contador+1}
+		
 			}
 
 			media = soma / 10
@@ -54,7 +52,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 793; 
+ * @POSICAO-CURSOR = 530; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

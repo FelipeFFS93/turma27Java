@@ -22,7 +22,7 @@ programa
 		inteiro linha = 0
 		inteiro coluna = 0
 
-		inteiro diagonal = 0
+		//inteiro diagonal = 0
 
 		para(linha = 0; linha < 4; linha++){
 			para(coluna = 0; coluna < 6; coluna++){
@@ -93,7 +93,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1583; 
+ * @POSICAO-CURSOR = 489; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {matrizN1, 17, 10, 8}-{matrizN2, 18, 10, 8}-{matrizM1, 19, 10, 8}-{matrizM2, 20, 10, 8};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
