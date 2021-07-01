@@ -17,8 +17,8 @@ programa
 		leia(ano)
 
 		anoR = (2021 - ano)
-		diaR = (23 - dia)
-		mesR = (6 - mes)
+		diaR = (1 - dia)
+		mesR = (7 - mes)
 		
 		resultado = ((anoR * 365) + mesR * 30) + diaR
 
@@ -40,7 +40,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 121; 
+ * @POSICAO-CURSOR = 436; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
