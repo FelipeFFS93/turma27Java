@@ -32,15 +32,18 @@ public class inicioPoo {
 		
 		idade = 2021 - ano;
 		
+		menorIdade = idade;
+		
+		if((2021-ano) > maiorIdade) {
+			maiorIdade = idade;
+		}
 		if((2021-ano) < menorIdade) {
 			menorIdade = idade;
 		   }
 		
-		if((2021-ano) > maiorIdade) {
-			maiorIdade = idade;
 	}
 		
-		}
+		
 	
 			
 		System.out.println("Bom dia Sr.[a]");
