@@ -46,7 +46,7 @@ public class lojaJava {
 					System.out.println("\nDigite a quantidade:");
 					quantidade = read.nextInt();
 					carrinho[opc2] = quantidade * precos[opc2]; 
-					System.out.printf("%d - %d[s] foram adicionados no seu carrinho",quantidade,produtos[opc2]);
+					System.out.printf("%d - %s[s] foram adicionados no seu carrinho",quantidade,produtos[opc2]);
 					}
 				}
 				if(opc2 ==2) {
